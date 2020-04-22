@@ -9,25 +9,36 @@
         <StackLayout>
             <Label Text="Outside Temperature Reading"
                    HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center"/>
+                   VerticalTextAlignment="Center"
+                   x:Name="LblTemp"/>
             <Label Text="Wind Speed"                   
                    HorizontalTextAlignment="Center"
+                   x:Name="LblSpeed"
                    />
             <Label Text="Wind Direction"
-                   
                    HorizontalTextAlignment="Center"
+                   x:Name="LblDir"
+                   
                    />
             <Label Text="Pressure"
                    HorizontalTextAlignment="Center"
+                   x:Name="LblPressure"
+                   
                    />
             <Label Text="Humidity"
                    HorizontalTextAlignment="Center"
+                   x:Name="LblHumidity"
+                   
                    />
             <Label Text="Sunrise Time"
                    HorizontalTextAlignment="Center"
+                   x:Name="LblSunrise"
+                   
                    />
             <Label Text="Sunset Time"
                    HorizontalTextAlignment="Center"
+                   x:Name="LblSunset"
+                   
                    />
         </StackLayout>
     </ContentPage.Content>

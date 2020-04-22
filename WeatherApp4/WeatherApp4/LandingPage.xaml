@@ -7,13 +7,16 @@
              x:Class="WeatherApp4.LandingPage">
     <ContentPage.Content>
         <StackLayout>
+            
             <Label Text="Welcome to Xamarin.Forms!"
+                   x:Name="Label1"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <!--Here is where I added a button and an entry.-->
             <Button Text="See the Weather"
+                    x:Name="BtnShowTemp"
                     Clicked="OnButtonClicked"/>
-            <Entry Placeholder="Select City"
+            <Entry Placeholder="Select City" x:Name="Entry1"
                    />
             <!--Here is where I added json code.-->
             
