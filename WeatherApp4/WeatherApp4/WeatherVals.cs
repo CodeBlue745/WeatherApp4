@@ -4,6 +4,9 @@ using System.Text;
 
 namespace WeatherApp4
 {
+    /// <summary>
+    /// Create get and set values for the application to change whenever it needs to perform an action.
+    /// </summary>
     public partial class WeatherVals
     {
         public static string CurTemp { get; set; }

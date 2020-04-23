@@ -7,33 +7,79 @@
              x:Class="WeatherApp4.Weatherpage">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="City Name"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblCityName"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
             <Label Text="Outside Temperature Reading"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   x:Name="LblTemp"/>
+                   />
+            <Label x:Name="LblTemp"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label Text="High"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblHigh"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label Text="Low"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblLow"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
             <Label Text="Wind Speed"                   
                    HorizontalTextAlignment="Center"
-                   x:Name="LblSpeed"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblSpeed"                  
+                   HorizontalTextAlignment="Center"
                    />
             <Label Text="Wind Direction"
                    HorizontalTextAlignment="Center"
-                   x:Name="LblDir"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblDir"
+                   HorizontalTextAlignment="Center"
                    />
             <Label Text="Pressure"
                    HorizontalTextAlignment="Center"
-                   x:Name="LblPressure"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblPressure"
+                   HorizontalTextAlignment="Center"
                    />
             <Label Text="Humidity"
                    HorizontalTextAlignment="Center"
-                   x:Name="LblHumidity"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblHumidity"
+                   HorizontalTextAlignment="Center"
                    />
             <Label Text="Sunrise Time"
                    HorizontalTextAlignment="Center"
-                   x:Name="LblSunrise"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblSunrise"
+                   HorizontalTextAlignment="Center"
                    />
             <Label Text="Sunset Time"
                    HorizontalTextAlignment="Center"
-                   x:Name="LblSunset"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblSunset"
+                   HorizontalTextAlignment="Center"
                    />
         </StackLayout>
     </ContentPage.Content>
