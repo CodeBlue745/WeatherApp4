@@ -18,9 +18,6 @@
                     Clicked="OnButtonClicked"/>
             <Entry Placeholder="Select City" x:Name="Entry1"
                    />
-            <!--Here is where I added json code.-->
-            
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -18,27 +18,22 @@
             <Label Text="Wind Direction"
                    HorizontalTextAlignment="Center"
                    x:Name="LblDir"
-                   
                    />
             <Label Text="Pressure"
                    HorizontalTextAlignment="Center"
                    x:Name="LblPressure"
-                   
                    />
             <Label Text="Humidity"
                    HorizontalTextAlignment="Center"
                    x:Name="LblHumidity"
-                   
                    />
             <Label Text="Sunrise Time"
                    HorizontalTextAlignment="Center"
                    x:Name="LblSunrise"
-                   
                    />
             <Label Text="Sunset Time"
                    HorizontalTextAlignment="Center"
                    x:Name="LblSunset"
-                   
                    />
         </StackLayout>
     </ContentPage.Content>
