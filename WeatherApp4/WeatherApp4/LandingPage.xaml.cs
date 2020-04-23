@@ -31,7 +31,7 @@ namespace WeatherApp4
                         wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
                         //The API Key for my online account of weather information is located at the following URL where we will download the data from.
                         string APIKey = "ffbbc988898533289b11a4b365beb2b3";
-                        string json = wc.DownloadString($"https://api.openweathermap.org/data/2.5/weather?q={Entry1},USA&appid=ffbbc988898533289b11a4b365beb2b3");
+                        string json = wc.DownloadString($"https://api.openweathermap.org/data/2.5/weather?q={Entry1.Text},USA&appid=ffbbc988898533289b11a4b365beb2b3&units=imperial");
                         //Here we create two JSON objects. the first parses the information we gather from the API and puts it in jo.
                         JObject jo = JObject.Parse(json);
 
