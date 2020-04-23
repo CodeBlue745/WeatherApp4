@@ -16,12 +16,12 @@ namespace WeatherApp4
         {
             InitializeComponent();
             LblTemp.Text = WeatherVals.CurTemp;
-            //LblSpeed.Text = WeatherVals.;
-            //LblDir.Text = WeatherVals.CurTemp;
-            //LblPressure.Text = WeatherVals.CurTemp;
-            //LblHumidity.Text = WeatherVals.CurTemp;
-            //LblSunrise.Text = WeatherVals.CurTemp;
-            //LblSunset.Text = WeatherVals.CurTemp;
+            LblSpeed.Text = WeatherVals.WindSpeed;
+            LblDir.Text = WeatherVals.Degrees;
+            LblPressure.Text = WeatherVals.Pressure;
+            LblHumidity.Text = WeatherVals.Humidity;
+            LblSunrise.Text = WeatherVals.Sunrise;
+            LblSunset.Text = WeatherVals.Sunset;
         }
     }
 }

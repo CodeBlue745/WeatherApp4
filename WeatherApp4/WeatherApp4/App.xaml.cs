@@ -13,8 +13,8 @@ namespace WeatherApp4
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            //DependencyService.Register<MockDataStore>();
+            MainPage = new NavigationPage(new LandingPage());
         }
 
         protected override void OnStart()
