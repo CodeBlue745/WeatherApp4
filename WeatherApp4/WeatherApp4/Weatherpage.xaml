@@ -81,6 +81,20 @@
             <Label x:Name="LblSunset"
                    HorizontalTextAlignment="Center"
                    />
+            <Label Text="High Noon"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblMidday"
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Text="Midnight"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   />
+            <Label x:Name="LblTwilight"
+                   HorizontalTextAlignment="Center"
+                   />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

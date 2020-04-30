@@ -51,7 +51,9 @@ namespace WeatherApp4
                         //this string is equal to the longitude.
                         string Lon = coord["lon"].ToString();
                         string Lat = coord["lat"].ToString();
+                        //This is another API key for reference purposes.
                         string APIKey2 = "22a94ad955dbedfff080868ed126662e";
+                        //Here, we compile the Longitude, Latitude, and new API key into a new API string to search the web.
                         string json2 = wc.DownloadString($"https://api.sunrise-sunset.org/json?lat={Lat}&lng={Lon}&appid={APIKey2}&units=imperial");
                         //Here we create JSON objects. the first parses the information we gather from the API and puts it in jo2.
                         //The first is the main object.
@@ -77,6 +79,8 @@ namespace WeatherApp4
                         //these two get data from the json2 downloaded string.
                         WeatherVals.Sunrise = LongandLat["sunrise"].ToString();
                         WeatherVals.Sunset = LongandLat["sunset"].ToString();
+                        WeatherVals.SolarNoon = LongandLat["solar_noon"].ToString();
+                        WeatherVals.AstronomicalTwilight = LongandLat["astronomical_twilight_end"].ToString();
                         //Add Weather page.
                         Navigation.PushAsync(new Weatherpage());
                     }

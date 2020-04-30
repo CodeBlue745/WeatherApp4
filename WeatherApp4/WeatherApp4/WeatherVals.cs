@@ -19,5 +19,7 @@ namespace WeatherApp4
         public static string Humidity { get; set; }
         public static string Sunrise { get; set; }
         public static string Sunset { get; set; }
+        public static string SolarNoon { get; set; }
+        public static string AstronomicalTwilight { get; set; }
     }
 }

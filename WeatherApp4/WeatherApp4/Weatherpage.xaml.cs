@@ -28,6 +28,8 @@ namespace WeatherApp4
             LblHumidity.Text = WeatherVals.Humidity;
             LblSunrise.Text = WeatherVals.Sunrise;
             LblSunset.Text = WeatherVals.Sunset;
+            LblMidday.Text = WeatherVals.SolarNoon;
+            LblTwilight.Text = WeatherVals.AstronomicalTwilight;
 
         }
     }
